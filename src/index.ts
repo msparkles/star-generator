@@ -290,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const canvasElt = <HTMLCanvasElement>document.getElementById("background-canvas");
     canvasElt.width = window.innerWidth;
     canvasElt.height = window.innerHeight;
-    const ctx = canvasElt.getContext("2d");
+    const ctx = canvasElt.getContext("2d", {alpha: false});
     if (ctx === null) {
         throw new Error("2d context not supported");
     }
