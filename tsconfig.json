@@ -2,7 +2,7 @@
     "compilerOptions": {
         "module": "ESNext",
         "target": "ESNext",
-        "outDir": "js",
+        "outDir": "docs/js",
         "strictNullChecks": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
