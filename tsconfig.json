@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ESNext",
+        "outDir": "js",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "strictPropertyInitialization": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "alwaysStrict": true,
+        "noImplicitThis": true,
+    },
+    "include": ["src/**/*"],
+}
